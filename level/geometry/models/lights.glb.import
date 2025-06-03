@@ -18,6 +18,7 @@ nodes/root_name="LightsModel"
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
 nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
@@ -36,7 +37,8 @@ _subresources={
 "materials": {
 "light_shafts": {
 "use_external/enabled": true,
-"use_external/path": "res://level/geometry/models/light_shafts.tres"
+"use_external/fallback_path": "res://level/geometry/models/light_shafts.tres",
+"use_external/path": "uid://2derncr82ntu"
 }
 }
 }
