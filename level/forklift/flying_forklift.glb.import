@@ -18,6 +18,7 @@ nodes/root_name="FlyingForkliftModel"
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
 nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
@@ -36,11 +37,13 @@ _subresources={
 "materials": {
 "flying_forklift": {
 "use_external/enabled": true,
-"use_external/path": "res://level/forklift/flying_forklift.tres"
+"use_external/fallback_path": "res://level/forklift/flying_forklift.tres",
+"use_external/path": "uid://bb4rjtvtwl1a3"
 },
 "mid_cargo_box": {
 "use_external/enabled": true,
-"use_external/path": "res://level/forklift/mid_cargo_box.tres"
+"use_external/fallback_path": "res://level/forklift/mid_cargo_box.tres",
+"use_external/path": "uid://fqclk6lbdf03"
 }
 }
 }
