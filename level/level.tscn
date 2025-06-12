@@ -63,7 +63,7 @@ transform = Transform3D(-0.164432, 0, 0.986389, 0, 1, 0, -0.986389, 0, -0.164432
 transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.8183, 0.0403479, 78.7639)
 
 [node name="Marker3D2" type="Marker3D" parent="PlayerSpawnpoints"]
-transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.818, -1.077, 80.764)
+transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.818, 0.844759, 80.764)
 
 [node name="Marker3D3" type="Marker3D" parent="PlayerSpawnpoints"]
 transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.818, -1.077, 76.764)
