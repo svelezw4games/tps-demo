@@ -60,10 +60,10 @@ transform = Transform3D(-0.164432, 0, 0.986389, 0, 1, 0, -0.986389, 0, -0.164432
 [node name="PlayerSpawnpoints" type="Node3D" parent="."]
 
 [node name="Marker3D1" type="Marker3D" parent="PlayerSpawnpoints"]
-transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.8183, -1.0765, 78.7639)
+transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.8183, 0.0403479, 78.7639)
 
 [node name="Marker3D2" type="Marker3D" parent="PlayerSpawnpoints"]
-transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.818, -1.077, 80.764)
+transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.818, 0.844759, 80.764)
 
 [node name="Marker3D3" type="Marker3D" parent="PlayerSpawnpoints"]
 transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.818, -1.077, 76.764)
@@ -72,7 +72,7 @@ transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826
 transform = Transform3D(-0.575826, 0, -0.817573, 0, 1, 0, 0.817573, 0, -0.575826, 64.818, -1.077, 74.764)
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
-_spawnable_scenes = PackedStringArray("res://player/player.tscn", "res://enemies/red_robot/red_robot.tscn", "res://player/bullet/bullet.tscn")
+_spawnable_scenes = PackedStringArray("uid://cs1k22tdf04k4", "uid://byi6b08jpb2iw", "uid://jphgr3qep5")
 spawn_path = NodePath("../SpawnedNodes")
 
 [node name="Core" parent="." instance=ExtResource("14")]
@@ -143,7 +143,7 @@ transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, -68.24
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="FlyingForklifts"]
 libraries = {
-"": SubResource("AnimationLibrary_35gwb")
+&"": SubResource("AnimationLibrary_35gwb")
 }
 autoplay = "mawaru"
 
