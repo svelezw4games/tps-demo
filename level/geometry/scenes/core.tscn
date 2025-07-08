@@ -53,8 +53,8 @@ _data = [Vector2(0, 0), 0.0, 2.78182, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="Gradient" id="3"]
-offsets = PackedFloat32Array(0, 0.0110497, 0.635359)
-colors = PackedColorArray(0, 0.847656, 1, 0, 1, 0.881836, 0, 1, 1, 0, 0, 0)
+offsets = PackedFloat32Array(0, 0.0110497, 0.530715, 0.867069)
+colors = PackedColorArray(0, 0.847656, 1, 0, 0.355646, 1, 0.871961, 1, 0.590576, 0.635404, 0.554047, 0.635404, 1, 0, 0, 0)
 
 [sub_resource type="Shader" id="14"]
 code = "shader_type spatial;
@@ -208,6 +208,7 @@ local_coords = true
 mesh = ExtResource("5")
 spread = 180.0
 gravity = Vector3(0, 0, 0)
+initial_velocity_max = 847.83
 angle_max = 86.0
 scale_amount_min = 0.55
 scale_amount_max = 0.75
@@ -232,6 +233,7 @@ emission_ring_axis = Vector3(0, 1, 0)
 emission_ring_height = 0.62
 emission_ring_radius = 0.01
 emission_ring_inner_radius = 0.0
+emission_ring_cone_angle = 90.0
 particle_flag_align_y = true
 particle_flag_rotate_y = true
 spread = 180.0
